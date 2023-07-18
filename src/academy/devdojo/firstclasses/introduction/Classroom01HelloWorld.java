@@ -5,12 +5,7 @@ package academy.devdojo.firstclasses.introduction;
  */
 
 // this is a one line comment
-
-    /*
-    this is a
-    multiline
-    comment
-     */
+    
 
 public class Classroom01HelloWorld {
     public static void main (String[] args){
