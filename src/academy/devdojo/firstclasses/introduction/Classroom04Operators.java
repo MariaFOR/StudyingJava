@@ -43,8 +43,36 @@ public class Classroom04Operators {
         System.out.println("isInTheLawLessThanThirty " + isInTheLawLessThanThirty);
 
         double totalCurrentAccountAmount = 200;
-        double totalAmountOfSavingsAccount = 3000;
-        boolean isPlay
+        double totalAmountOfSavingsAccount = 30000;
+        float valuePlaystation = 5000;
+        boolean isPlaystationBuyable = totalCurrentAccountAmount > valuePlaystation || totalAmountOfSavingsAccount > valuePlaystation;
+
+        System.out.println("isPlaystationBuyable " + isPlaystationBuyable);
+
+        // = += -+ *= /= %=
+        double bonus = 1800;
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+
+        System.out.println(bonus);
+
+        // ++ --
+        int counter = 0;
+        counter += 1; // counter = counter + 1;
+        counter++;
+        counter--;
+        ++counter;
+        --counter;
+
+        System.out.println(counter);
+
+        int counter2 = 0;
+
+        System.out.println(counter2++);
+        System.out.println(++counter2);
 
     }
 }
