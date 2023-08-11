@@ -6,4 +6,13 @@ public class Student {
     public int age;
     public char gender;
 
+    public void printer(){
+
+        System.out.println("-------------------");
+
+        System.out.println(this.name);
+        System.out.println(this.age);
+        System.out.println(this.gender);
+    }
+
 }
