@@ -45,6 +45,21 @@ public class Calculator {
         System.out.println("Num2 " + number2);
     }
 
+    public void sumArray (int[] numbers){
+        int sum = 0;
+        for(int num: numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumVarArgs(int... numbers){
+        int sum = 0;
+        for(int num: numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }
 
 
