@@ -5,25 +5,33 @@ public class Anime {
     private String name;
     private String type;
     private int episodes;
-    private String gender;
+    private String genre;
+    private String studio;
 
-    public Anime(String name, String type, int episodes, String gender) {
-        System.out.println("Inside of constructor");
+    public Anime(String name, String type, int episodes, String genre) {
+        this();
         this.name = name;
         this.type = type;
         this.episodes = episodes;
-        this.gender = gender;
+        this.genre = genre;
     }
 
-    public Anime(){
+    public Anime(String name, String type, int episodes, String genre, String studio) {
+        this(name, type, episodes, genre);
+        this.studio = studio;
+    }
 
+
+    public Anime(){
+        System.out.println("Inside the no-argument constructor");
     }
 
     public void printer() {
         System.out.println(this.name);
         System.out.println(this.type);
         System.out.println(this.episodes);
-        System.out.println(this.gender);
+        System.out.println(this.genre);
+        System.out.println(this.studio);
     }
 
     public void setName(String name) {
@@ -32,14 +40,6 @@ public class Anime {
 
     public String getName() {
         return this.name;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public String getGender() {
-        return gender;
     }
 
     public void setType(String type) {
@@ -57,4 +57,21 @@ public class Anime {
     public int getEpisodes() {
         return this.episodes;
     }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setStudio(String studio) {
+        this.studio = studio;
+    }
+
+    public String getStudio() {
+        return studio;
+    }
+
 }
