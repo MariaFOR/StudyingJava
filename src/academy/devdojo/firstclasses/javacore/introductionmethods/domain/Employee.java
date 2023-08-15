@@ -2,9 +2,10 @@ package academy.devdojo.firstclasses.javacore.introductionmethods.domain;
 
 public class Employee {
 
-    public String name;
-    public int age;
-    public double[] salaries;
+    private String name;
+    private int age;
+    private double[] salaries;
+    private double average;
 
     public void printer() {
         System.out.println(this.name);
@@ -19,8 +20,6 @@ public class Employee {
     }
 
     public void printAverageSalary() {
-        double average = 0;
-
         if (salaries == null) {
             return;
         }
@@ -31,6 +30,34 @@ public class Employee {
 
         average /= salaries.length;
         System.out.println("\nAverage Wage: " + average);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double[] getSalaries() {
+        return salaries;
+    }
+
+    public void setSalaries(double[] salaries) {
+        this.salaries = salaries;
+    }
+
+    public double getAverage() {
+        return average;
     }
 
 }
