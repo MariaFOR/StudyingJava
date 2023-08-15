@@ -1,6 +1,6 @@
-package academy.devdojo.firstclasses.javacore.introductionmethods.test;
+package academy.devdojo.firstclasses.javacore.Bintroductionmethods.test;
 
-import academy.devdojo.firstclasses.javacore.introductionmethods.domain.Person;
+import academy.devdojo.firstclasses.javacore.Bintroductionmethods.domain.Person;
 
 public class PersonTest01 {
     public static void main(String[] args) {

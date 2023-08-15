@@ -1,4 +1,4 @@
-package academy.devdojo.firstclasses.javacore.introductionmethods.domain;
+package academy.devdojo.firstclasses.javacore.Bintroductionmethods.domain;
 
 public class Person {
 

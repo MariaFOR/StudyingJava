@@ -1,4 +1,4 @@
-package academy.devdojo.firstclasses.javacore.introductionclasses.domain;
+package academy.devdojo.firstclasses.javacore.Aintroductionclasses.domain;
 
 public class Teacher {
 

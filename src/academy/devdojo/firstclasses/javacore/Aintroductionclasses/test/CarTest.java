@@ -1,6 +1,6 @@
-package academy.devdojo.firstclasses.javacore.introductionclasses.test;
+package academy.devdojo.firstclasses.javacore.Aintroductionclasses.test;
 
-import academy.devdojo.firstclasses.javacore.introductionclasses.domain.Car;
+import academy.devdojo.firstclasses.javacore.Aintroductionclasses.domain.Car;
 
 public class CarTest {
     public static void main(String[] args) {

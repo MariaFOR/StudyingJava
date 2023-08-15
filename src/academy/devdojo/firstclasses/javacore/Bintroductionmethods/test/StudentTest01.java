@@ -1,7 +1,7 @@
-package academy.devdojo.firstclasses.javacore.introductionmethods.test;
+package academy.devdojo.firstclasses.javacore.Bintroductionmethods.test;
 
-import academy.devdojo.firstclasses.javacore.introductionmethods.domain.Student;
-import academy.devdojo.firstclasses.javacore.introductionmethods.domain.StudentPrinter;
+import academy.devdojo.firstclasses.javacore.Bintroductionmethods.domain.Student;
+import academy.devdojo.firstclasses.javacore.Bintroductionmethods.domain.StudentPrinter;
 
 public class StudentTest01 {
     public static void main(String[] args) {
